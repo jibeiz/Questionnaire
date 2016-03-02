@@ -21,7 +21,10 @@ $(document).ready(function(){
                 //append outest div
                 $( "<div id='page"+numberArray[questionID]+"' "+"data-role='page'></div>").appendTo("body");
                 $( "<div id='header"+numberArray[questionID]+"' data-role='header'></div>").appendTo("#page"+numberArray[questionID]);
-                    $("<div data-role='navbar'><ul><li><a href='#page"+numberArray[parseInt(questionID)-1]+"' data-icon='arrow-l'>Page "+numberArray[parseInt(questionID)-1]+"</a></li><li><a href='#pageone' data-icon='home'>Home</a></li><li><a href='#page"+numberArray[parseInt(questionID)+1]+"' data-icon='arrow-r'>Page "+numberArray[parseInt(questionID)+1]+"</a></li></ul></div>").appendTo("#header"+numberArray[questionID]);
+                    if(questionID==1)
+                         $("<div data-role='navbar'><ul><li><a href='#page"+numberArray[parseInt(questionID)-1]+"' data-icon='arrow-l'>Back "+"</a></li><li><a href='#page"+numberArray[parseInt(questionID)+1]+"' data-icon='arrow-r'>No. "+(parseInt(questionID)+1)+"</a></li></ul></div>").appendTo("#header"+numberArray[questionID]);
+                    else
+                         $("<div data-role='navbar'><ul><li><a href='#page"+numberArray[parseInt(questionID)-1]+"' data-icon='arrow-l'>No. "+(parseInt(questionID)-1)+"</a></li><li><a href='#pageone' data-icon='home'>Home</a></li><li><a href='#page"+numberArray[parseInt(questionID)+1]+"' data-icon='arrow-r'>No. "+(parseInt(questionID)+1)+"</a></li></ul></div>").appendTo("#header"+numberArray[questionID]);
                     $( "<div id='main"+numberArray[questionID]+"' data-role='main' class='ui-content'></div>").appendTo("#page"+numberArray[questionID]);
                     $( "<div id='footer"+numberArray[questionID]+"' data-role='footer' style='text-align: center'></div>").appendTo("#page"+numberArray[questionID]);
 

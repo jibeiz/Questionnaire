@@ -3,31 +3,27 @@
     <question>
         <id>1</id>
         <ques><![CDATA[
-        <table class="quesTable">
-        <tr>
-        <td >1)</td>
-        <td ></td>
-        </tr>
+         1)
+        <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label for="Q11">Birth Date</label>
+         <input type="text" name="Q11" id="Q11" data-role="date" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q12">Age</label>
+         <input type="number" pattern="[0-9]*" name="Q12" id="Q12"  data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q13">Gender</label>
+         <select name="Q13" id="Q13" data-nativ-menu="false">
+         <option disabled selected>-Select-</option>
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         </select>
+         </li>
+         </form>
 
-        <tr>
-        <td >Height:</td>
-        <td ><input type="number" min="0" max="250" value="0" step="0.1" name="cm"" > cm  </td>
-        </tr>
-        <tr>
-        <td></td>
-        <td>OR</td>
-        </tr>
-        <tr>
-        <td ></td>
-        <td >
-        <div class="ui-select">
-        <div class="ui-btn ui-icon-carat-d ui-btn-ico-right ui-corner-all ui-shadow">
-        <input type="number"  value="0" step="1" name="feet" " > feet &nbsp<input type="number" value="0" step="0.1" name="inches" >inches</td>
-        </div>
-        </div>
-
-        </tr>
-        </table>
      ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -35,26 +31,22 @@
 <question>
         <id>2</id>
         <ques><![CDATA[
-
-        <table class="quesTable">
-        <tr>
-        <td  style="width: 30%;" >2)</td>
-        <td  style="width: 70%;"></td>
-        </tr>
-
-        <tr>
-        <td  style="width: 30%;">Height:</td>
-        <td  style="width: 70%;"><input type="number" min="0" max="250" value="0" step="0.1" name="cm" style="width:10vw;border-width:0;border-bottom:1px solid black" > cm  </td>
-        </tr>
-        <tr>
-        <td  style="width: 30%;"></td>
-        <td  style="width: 70%;">OR</td>
-        </tr>
-        <tr>
-        <td  style="width: 30%;"></td>
-        <td  style="width: 70%;"><input type="number"  value="0" step="1" name="feet" style="width:10vw;border-width:0;border-bottom:1px solid black" > feet &nbsp<input type="number" value="0" step="0.1" name="inches" style="width:10vw;border-bottom:1px solid black">inches</td>
-        </tr>
-        </table>
+        2)
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label for="Q21">Height:</label>
+         <input type="text" name="Q21" id="Q21" value="cm" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q22">or</label>
+         <input type="text" name="Q22" id="Q22" value="feet" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q23"></label>
+         <input type="text" name="Q23" id="Q23" value="inches" data-clear-btn="true">
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -62,23 +54,26 @@
     <question>
         <id>3</id>
         <ques><![CDATA[
-        <li>
         3)
-        <br>
-        Body weight:
-        <br>
-        (<strong>Today</strong>)
-        <br>
-        <span style="margin-left:15vw"><input type="number" min="0" max="400" value="0" step="0.1" name="kgtoday" style="width:10vw;border-width:0;border-bottom:1px solid black"> kg
-         or  <input type="number" min="0" max="1000" value="0" step="1" name="lbstoday" style="width:10%;border-width:0;border-bottom:1px solid black"> labs</td>
-        </span>
-        <br>
-        (<strong>6 months ago</strong>)
-        <br>
-        <span style="margin-left:15vw"><input type="number" min="0" max="400" value="0" step="0.1" name="kgtoday" style="width:10vw;border-width:0;border-bottom:1px solid black"> kg
-         or  <input type="number" min="0" max="1000" value="0" step="1" name="lbstoday" style="width:10%;border-width:0;border-bottom:1px solid black"> labs</td>
-        </span>
-        </li>
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label for="Q31">Body weight:<strong>(Today)</strong></label>
+         <input type="text" name="Q31" id="Q31" value="kg" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q32">or</label>
+         <input type="text" name="Q32" id="Q32" value="labs" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q33"><strong>(6 months ago)</strong></label>
+         <input type="text" name="Q33" id="Q33" value="kg" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q34">or</label>
+         <input type="text" name="Q34" id="Q34" value="labs" data-clear-btn="true">
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -86,10 +81,14 @@
     <question>
         <id>4</id>
         <ques><![CDATA[
-        <li>4)
-        <br>
-            Birth place (town and province):  <input type="text" style="border-width:0;border-bottom:1px solid black" size="50" name="birthplace" required>
-        </li>
+        4)
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label for="Q41">Birth place (town and province): </label>
+         <input type="text" name="Q41" id="Q41" value="kg" data-clear-btn="true">
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -97,22 +96,25 @@
     <question>
         <id>5</id>
         <ques><![CDATA[
-        <li>
         5)
-        <br>
-            How many generations has your family lived in Newfoundland?
-            <select name="generation" style="border-width:0;border-bottom:1px solid black">
-            <option disabled selected> -- select -- </option>
-             <option value ="1">1</option>
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label for="Q51">How many generations has your family lived in Newfoundland?</label>
+         </li>
+         <li class= "ui-field-contain">
+         <select name="Q51" id="Q51" data-nativ-menu="false">
+         <option disabled selected>-Select-</option>
+         <option value ="1">1</option>
              <option value ="2">2</option>
                 <option value ="3">3</option>
                 <option value ="4">4</option>
                 <option value ="5">5</option>
                 <option value ="6">6</option>
                 <option value ="6">&gt6</option>
-        </select>
-
-        </li>
+         </select>
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -120,27 +122,27 @@
     <question>
         <id>6</id>
         <ques><![CDATA[
-        <li>
-        6)
-        <br>
-        Family origin:
-        <br>
-        <table>
-        <tr>
-        <td><input type="radio" name="origin" value="Irish" /> Irish</td>
-        <td><input type="radio" name="origin" value="English"/> English</td>
-        </tr>
-        <tr>
-        <td><input type="radio" name="origin" value="Scottish"/> Scottish</td>
-        <td><input type="radio" name="origin" value="French"/> French</td></td>
-        </tr>
-        </table>
-        <br>
-        <br>
-        If other (Please specify):
-        <br>
-        <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="origin1" required>
-        </li>
+         6)
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label>Family origin:</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="radio" name="Q61" id="Q61" value="Irish" />
+         <label for="Q61">Irish</label>
+         <input type="radio" name="Q62" id="Q62" value="English" />
+         <label for="Q62">English</label>
+         <input type="radio" name="Q63" id="Q63" value="Scottish" />
+         <label for="Q63">Scottish</label>
+         <input type="radio" name="Q64" id="Q64" value="French" />
+         <label for="Q64">French</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q65">If other (Please specify):</label>
+         <input type="text" name="Q65" id="Q65" value="" data-clear-btn="true">
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -149,51 +151,53 @@
         <id>7</id>
         <ques><![CDATA[
         7)
-        <br>
-        <li>
-            Are you a diabetic? (Please choose one)
-            &nbsp&nbsp
-            <br>
+         <form>
+        <ul data-role="listview" data-inset="true">
 
-            <input type="radio" name="diabetic" value="YES" /> Yes
-
-            <input type="radio" name="diabetic" value="NO" /> No
-
-
-        <br>
-         <br>
-        If yes, please choose which type:
-            &nbsp&nbsp
-            <br>
-            <input type="radio" name="diabetictype" value="1" /> Type 1
-
-            <input type="radio" name="diabetictype" value="2" /> Type 2
-
-
-        </li>
-        ]]></ques>
+         <li class= "ui-field-contain">
+         <label>Are you a diabetic? (Please choose one)</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="radio" name="Q71" id="Q71" value="YES" />
+         <label for="Q71">YES</label>
+         <input type="radio" name="Q72" id="Q72" value="NO" />
+         <label for="Q72">NO</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label>If yes, please choose which type:</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="radio" name="Q73" id="Q73" value="1" />
+         <label for="Q73">Type 1</label>
+         <input type="radio" name="Q74" id="Q74" value="2" />
+         <label for="Q74">Type 2</label>
+         </li>
+         </form>
+         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
     </question>
     <question>
         <id>8</id>
         <ques><![CDATA[
-        8)
-        <br>
-        <li>
-            Do you have any disease? (Please choose one)
-            &nbsp&nbsp
-            <br>
-            <input type="radio" name="disease" value="YES" /> Yes
+         8)
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label>Do you have any disease? (Please choose one)</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="radio" name="Q81" id="Q81" value="YES" />
+         <label for="Q81">YES</label>
+         <input type="radio" name="Q82" id="Q82" value="NO" />
+         <label for="Q82">NO</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q83">If Yes, please specify:</label>
+         <input type="text" name="Q83" id="Q83" value="" data-clear-btn="true">
+         </li>
+         </form>
 
-            <input type="radio" name="disease" value="NO" /> No
-            <br>
-        <br>
-
-        If Yes, please specify:&nbsp&nbsp
-        <br>
-            <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="disease1" required>
-        </li>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -201,20 +205,23 @@
     <question>
         <id>9</id>
         <ques><![CDATA[
-        9)
-        <br>
-         <li>
-            Do you smoke? (Please choose one)&nbsp&nbsp
-            <br>
-        <input type="radio" name="smoke" value="YES" /> Yes
-
-        <input type="radio" name="smoke" value="NO" /> No
-            <br>
-             <br>
-            If yes, how many cigarettes per day? &nbsp&nbsp <input type="number" style="width:10vw;border-width:0;border-bottom:1px solid black" min="0" max="100" value="0" step="0.1" name="smoke1" style="width:30px" >
-
-
-        </li>
+         9)
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label>Do you smoke? (Please choose one)</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="radio" name="Q91" id="Q91" value="YES" />
+         <label for="Q91">YES</label>
+         <input type="radio" name="Q92" id="Q92" value="NO" />
+         <label for="Q92">NO</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q93"> If yes, how many cigarettes per day?</label>
+         <input type="number" name="Q93" id="Q93" value="" data-clear-btn="true">
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -223,21 +230,28 @@
         <id>10</id>
         <ques><![CDATA[
         10)
-        <br>
-        <li>
-            Do you drink? (Please choose one)
-            <br>
-            <input type="radio" name="drink" value="YES" /> Yes
-
-            <input type="radio" name="drink" value="NO" /> No
-            <br>
-            <br>
-            If yes,please specify (Wine, beer, etc.)
-            <input type="text" style="width:20vw;border-width:0;border-bottom:1px solid black" size="20" name="drink1" required>
-            <br>
-            How many servings per week? &nbsp <input style="width:10vw;border-width:0;border-bottom:1px solid black" type="number" min="0" max="100" value="0" step="0.1" name="drink2" style="width:30px" >
-
-        </li>
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label>Do you drink? (Please choose one)</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="radio" name="Q101" id="Q101" value="YES" />
+         <label for="Q101">YES</label>
+         <input type="radio" name="Q102" id="Q102" value="NO" />
+         <label for="Q102">NO</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q103">If yes,please specify (Wine, beer, etc.)</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="text" name="Q103" id="Q103" value="" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q104">How many servings per week</label>
+         <input type="number" name="Q104" id="Q104" value="" data-clear-btn="true">
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -246,19 +260,24 @@
         <id>11</id>
         <ques><![CDATA[
         11)
-        <br>
-         <li>
-            Are you taking any medications? (Please choose one)&nbsp&nbsp
-            <br>
-            <input type="radio" name="medication" value="YES" /> Yes
-
-            <input type="radio" name="medication" value="NO" /> No
-            <br>
-             <br>
-            If yes, please specify which medications:&nbsp&nbsp
-            <br>
-            <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="medication1" required>
-        </li>
+         <form>
+        <ul data-role="listview" data-inset="true">
+         <li class= "ui-field-contain">
+         <label>Are you taking any medications? (Please choose one)</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="radio" name="Q111" id="Q111" value="YES" />
+         <label for="Q111">YES</label>
+         <input type="radio" name="Q112" id="Q112" value="NO" />
+         <label for="Q112">NO</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q113">If yes, please specify which medications:</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="text" name="Q113" id="Q113" value="" data-clear-btn="true">
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
@@ -267,29 +286,39 @@
         <id>12</id>
         <ques><![CDATA[
         12)
-        <br>
-        <li >
-            Father's information (if deceased included pre-existing information):
-            <br>
-            Body weight:
-            <br>
-            <input type="number" min="0" max="400" value="0" step="0.1" name="kgtoday" style="width:10vw;border-width:0;border-bottom:1px solid black"> kg
-        or <input type="number" min="0" max="1000" value="0" step="1" name="lbstoday" style="width:10%;border-width:0;border-bottom:1px solid black"> labs</td>
-
-        <br>
-        Height:
-        <br>
-        <input type="number" min="0" max="250" value="0" step="0.1" name="cm" style="width:10vw;border-width:0;border-bottom:1px solid black" > cm
-         or
-       <input type="number"  value="0" step="1" name="feet" style="width:8vw;border-width:0;border-bottom:1px solid black" > feet &nbsp<input type="number" value="0" step="0.1" name="inches" style="width:8vw;border-bottom:1px solid black">inches
-       <br>
-       <br>
-
-
-            <strong>Does he have any disease(s) or condition(s)? Please specify</strong>
-            <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="fatherdisease" required>
-        </li>
-        ]]></ques>
+        <form>
+        <ul data-role="listview" data-inset="true">
+        <li class= "ui-field-contain">
+         <label>Father's information (if deceased included pre-existing information):</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q121">Body weight:</label>
+         <input type="text" name="Q121" id="Q121" value="kg" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q122">or</label>
+         <input type="text" name="Q122" id="Q122" value="labs" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q123">Height:</label>
+         <input type="text" name="Q123" id="Q2Q1231" value="cm" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q124">or</label>
+         <input type="text" name="Q124" id="Q124" value="feet" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q125"></label>
+         <input type="text" name="Q125" id="Q125" value="inches" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q126">Does he have any disease or condition?</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="text" name="Q126" id="Q126" value="" data-clear-btn="true">
+         </li>
+         </form>
+         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
     </question>
@@ -297,29 +326,39 @@
         <id>13</id>
         <ques><![CDATA[
         13)
-        <br>
-         <li>
-            Mother's infomation (if deceased incuded pre-existing information):
-             <br>
-            Body weight:
-            <br>
-            <input type="number" min="0" max="400" value="0" step="0.1" name="kgtoday" style="width:10vw;border-width:0;border-bottom:1px solid black"> kg
-        or <input type="number" min="0" max="1000" value="0" step="1" name="lbstoday" style="width:10%;border-width:0;border-bottom:1px solid black"> labs</td>
-
-        <br>
-        Height:
-        <br>
-        <input type="number" min="0" max="250" value="0" step="0.1" name="cm" style="width:10vw;border-width:0;border-bottom:1px solid black" > cm
-         or
-       <input type="number"  value="0" step="1" name="feet" style="width:8vw;border-width:0;border-bottom:1px solid black" > feet &nbsp<input type="number" value="0" step="0.1" name="inches" style="width:8vw;border-bottom:1px solid black">inches
-       <br>
-       <br>
-
-            <strong>Does she have any disease(s) or condition(s)? Please specify</strong>
-            <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="motherdisease" required>
-
-        </li>
-        ]]></ques>
+        <form>
+        <ul data-role="listview" data-inset="true">
+        <li class= "ui-field-contain">
+         <label>Mother's information (if deceased included pre-existing information):</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q121">Body weight:</label>
+         <input type="text" name="Q121" id="Q121" value="kg" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q122">or</label>
+         <input type="text" name="Q122" id="Q122" value="labs" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q123">Height:</label>
+         <input type="text" name="Q123" id="Q2Q1231" value="cm" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q124">or</label>
+         <input type="text" name="Q124" id="Q124" value="feet" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q125"></label>
+         <input type="text" name="Q125" id="Q125" value="inches" data-clear-btn="true">
+         </li>
+         <li class= "ui-field-contain">
+         <label for="Q126">Does he have any disease or condition?</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="text" name="Q126" id="Q126" value="" data-clear-btn="true">
+         </li>
+         </form>
+         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
     </question>
@@ -327,14 +366,18 @@
         <id>14</id>
         <ques><![CDATA[
         14)
-        <br>
-        <li>
-            To your knowledge, have any of your relatives volunteered for this study to date?
-            <br>
-            <br>
-            If yes, please indicate the name(s) of this person(s) to a staff memeber and the relationship of each of you:
-            <input type="text" style="border-width:0;border-bottom:1px solid black" size="100" name="relation" required>
-        </li>
+        <form>
+        <ul data-role="listview" data-inset="true">
+        <li class= "ui-field-contain">
+         <label>To your knowledge, have any of your relatives volunteered for this study to date?:</label>
+         </li>
+         <li class= "ui-field-contain">
+         <label>If yes, please indicate the name(s) of this person(s) to a staff memeber and the relationship of each of you:</label>
+         </li>
+         <li class= "ui-field-contain">
+         <input type="text" name="Q141" id="Q141" value="" data-clear-btn="true">
+         </li>
+         </form>
         ]]></ques>
         <type>0</type>
         <ans>Confirm</ans>
