@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="survey.js"></script>
+   <!--<script>-->
+       <!--$(document).ready(function() {-->
+
+           <!--document.getElementById("pageone").onclick = function () {-->
+               <!--document.body.webkitRequestFullscreen();-->
+           <!--};-->
+       <!--})-->
+   <!--</script>-->
+</head>
+<body>
+
+<div data-role="page" id="pageone" style="height: 10vh">
+    <div data-role="header">
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+        <h1>Survey</h1>
+
+    </div>
+
+    <div data-role="main" class="ui-content" style="height: 80vh">
+        <div class="ui-grid-solo" style="height: 20%">
+            <div class="ui-block-a" style="height: 100%">
+                <label for = "number-pattern" >Identification#</label>
+                <input type="number" name="number" pattern="[0-9]" id="number-pattern" value="">
+            </div>
+        </div>
+        <div class="ui-grid-solo" style="height: 10%">
+            <div class="ui-block-a">
+            </div>
+        </div>
+        <div class="ui-grid-solo" style="height: 25%;text-align: center">
+            <div class="ui-block-a">
+                <span>Take a short survey of 14 questions</span>
+            </div>
+        </div>
+        <div class="ui-grid-solo" style="height: 15%">
+            <div class="ui-block-a">
+                <a href="#pagetwo" class="ui-btn ui-corner-all ui-shadow">Start</a><br>
+                </div>
+        </div>
+        <div class="ui-grid-solo" style="height: 30%">
+            <div class="ui-block-a">
+            </div>
+        </div>
+    </div>
+
+    <div data-role="footer" style="height: 10vh">
+    </div>
+</div>
+
+
+<!--<div data-role="page" id="pagetwo">-->
+    <!--<div data-role="header">-->
+        <!--<div data-role="navbar">-->
+            <!--<ul>-->
+                <!--<li><a href="#pageone" data-icon="arrow-l">Page one</a></li>-->
+                <!--<li><a href="#pageone" data-icon="home">Home</a></li>-->
+                <!--<li><a href="#pagethree" data-icon="arrow-r">Page Two</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div data-role="main" class="ui-content">-->
+        <!--<p>This is Page Two. If you click on the link below, it will take you to Page One.</p>-->
+        <!--<a href="#pageone">Go to Page One</a>-->
+    <!--</div>-->
+
+    <!--<div data-role="footer">-->
+        <!--<h1>Footer Text</h1>-->
+    <!--</div>-->
+<!--</div>-->
+
+</body>
+</html>

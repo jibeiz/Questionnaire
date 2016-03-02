@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<list>
+    <question>
+        <id>1</id>
+        <ques><![CDATA[
+        <table class="quesTable">
+        <tr>
+        <td >1)</td>
+        <td ></td>
+        </tr>
+
+        <tr>
+        <td >Height:</td>
+        <td ><input type="number" min="0" max="250" value="0" step="0.1" name="cm"" > cm  </td>
+        </tr>
+        <tr>
+        <td></td>
+        <td>OR</td>
+        </tr>
+        <tr>
+        <td ></td>
+        <td >
+        <div class="ui-select">
+        <div class="ui-btn ui-icon-carat-d ui-btn-ico-right ui-corner-all ui-shadow">
+        <input type="number"  value="0" step="1" name="feet" " > feet &nbsp<input type="number" value="0" step="0.1" name="inches" >inches</td>
+        </div>
+        </div>
+
+        </tr>
+        </table>
+     ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+<question>
+        <id>2</id>
+        <ques><![CDATA[
+
+        <table class="quesTable">
+        <tr>
+        <td  style="width: 30%;" >2)</td>
+        <td  style="width: 70%;"></td>
+        </tr>
+
+        <tr>
+        <td  style="width: 30%;">Height:</td>
+        <td  style="width: 70%;"><input type="number" min="0" max="250" value="0" step="0.1" name="cm" style="width:10vw;border-width:0;border-bottom:1px solid black" > cm  </td>
+        </tr>
+        <tr>
+        <td  style="width: 30%;"></td>
+        <td  style="width: 70%;">OR</td>
+        </tr>
+        <tr>
+        <td  style="width: 30%;"></td>
+        <td  style="width: 70%;"><input type="number"  value="0" step="1" name="feet" style="width:10vw;border-width:0;border-bottom:1px solid black" > feet &nbsp<input type="number" value="0" step="0.1" name="inches" style="width:10vw;border-bottom:1px solid black">inches</td>
+        </tr>
+        </table>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>3</id>
+        <ques><![CDATA[
+        <li>
+        3)
+        <br>
+        Body weight:
+        <br>
+        (<strong>Today</strong>)
+        <br>
+        <span style="margin-left:15vw"><input type="number" min="0" max="400" value="0" step="0.1" name="kgtoday" style="width:10vw;border-width:0;border-bottom:1px solid black"> kg
+         or  <input type="number" min="0" max="1000" value="0" step="1" name="lbstoday" style="width:10%;border-width:0;border-bottom:1px solid black"> labs</td>
+        </span>
+        <br>
+        (<strong>6 months ago</strong>)
+        <br>
+        <span style="margin-left:15vw"><input type="number" min="0" max="400" value="0" step="0.1" name="kgtoday" style="width:10vw;border-width:0;border-bottom:1px solid black"> kg
+         or  <input type="number" min="0" max="1000" value="0" step="1" name="lbstoday" style="width:10%;border-width:0;border-bottom:1px solid black"> labs</td>
+        </span>
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>4</id>
+        <ques><![CDATA[
+        <li>4)
+        <br>
+            Birth place (town and province):  <input type="text" style="border-width:0;border-bottom:1px solid black" size="50" name="birthplace" required>
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>5</id>
+        <ques><![CDATA[
+        <li>
+        5)
+        <br>
+            How many generations has your family lived in Newfoundland?
+            <select name="generation" style="border-width:0;border-bottom:1px solid black">
+            <option disabled selected> -- select -- </option>
+             <option value ="1">1</option>
+             <option value ="2">2</option>
+                <option value ="3">3</option>
+                <option value ="4">4</option>
+                <option value ="5">5</option>
+                <option value ="6">6</option>
+                <option value ="6">&gt6</option>
+        </select>
+
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>6</id>
+        <ques><![CDATA[
+        <li>
+        6)
+        <br>
+        Family origin:
+        <br>
+        <table>
+        <tr>
+        <td><input type="radio" name="origin" value="Irish" /> Irish</td>
+        <td><input type="radio" name="origin" value="English"/> English</td>
+        </tr>
+        <tr>
+        <td><input type="radio" name="origin" value="Scottish"/> Scottish</td>
+        <td><input type="radio" name="origin" value="French"/> French</td></td>
+        </tr>
+        </table>
+        <br>
+        <br>
+        If other (Please specify):
+        <br>
+        <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="origin1" required>
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>7</id>
+        <ques><![CDATA[
+        7)
+        <br>
+        <li>
+            Are you a diabetic? (Please choose one)
+            &nbsp&nbsp
+            <br>
+
+            <input type="radio" name="diabetic" value="YES" /> Yes
+
+            <input type="radio" name="diabetic" value="NO" /> No
+
+
+        <br>
+         <br>
+        If yes, please choose which type:
+            &nbsp&nbsp
+            <br>
+            <input type="radio" name="diabetictype" value="1" /> Type 1
+
+            <input type="radio" name="diabetictype" value="2" /> Type 2
+
+
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>8</id>
+        <ques><![CDATA[
+        8)
+        <br>
+        <li>
+            Do you have any disease? (Please choose one)
+            &nbsp&nbsp
+            <br>
+            <input type="radio" name="disease" value="YES" /> Yes
+
+            <input type="radio" name="disease" value="NO" /> No
+            <br>
+        <br>
+
+        If Yes, please specify:&nbsp&nbsp
+        <br>
+            <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="disease1" required>
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>9</id>
+        <ques><![CDATA[
+        9)
+        <br>
+         <li>
+            Do you smoke? (Please choose one)&nbsp&nbsp
+            <br>
+        <input type="radio" name="smoke" value="YES" /> Yes
+
+        <input type="radio" name="smoke" value="NO" /> No
+            <br>
+             <br>
+            If yes, how many cigarettes per day? &nbsp&nbsp <input type="number" style="width:10vw;border-width:0;border-bottom:1px solid black" min="0" max="100" value="0" step="0.1" name="smoke1" style="width:30px" >
+
+
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>10</id>
+        <ques><![CDATA[
+        10)
+        <br>
+        <li>
+            Do you drink? (Please choose one)
+            <br>
+            <input type="radio" name="drink" value="YES" /> Yes
+
+            <input type="radio" name="drink" value="NO" /> No
+            <br>
+            <br>
+            If yes,please specify (Wine, beer, etc.)
+            <input type="text" style="width:20vw;border-width:0;border-bottom:1px solid black" size="20" name="drink1" required>
+            <br>
+            How many servings per week? &nbsp <input style="width:10vw;border-width:0;border-bottom:1px solid black" type="number" min="0" max="100" value="0" step="0.1" name="drink2" style="width:30px" >
+
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>11</id>
+        <ques><![CDATA[
+        11)
+        <br>
+         <li>
+            Are you taking any medications? (Please choose one)&nbsp&nbsp
+            <br>
+            <input type="radio" name="medication" value="YES" /> Yes
+
+            <input type="radio" name="medication" value="NO" /> No
+            <br>
+             <br>
+            If yes, please specify which medications:&nbsp&nbsp
+            <br>
+            <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="medication1" required>
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>12</id>
+        <ques><![CDATA[
+        12)
+        <br>
+        <li >
+            Father's information (if deceased included pre-existing information):
+            <br>
+            Body weight:
+            <br>
+            <input type="number" min="0" max="400" value="0" step="0.1" name="kgtoday" style="width:10vw;border-width:0;border-bottom:1px solid black"> kg
+        or <input type="number" min="0" max="1000" value="0" step="1" name="lbstoday" style="width:10%;border-width:0;border-bottom:1px solid black"> labs</td>
+
+        <br>
+        Height:
+        <br>
+        <input type="number" min="0" max="250" value="0" step="0.1" name="cm" style="width:10vw;border-width:0;border-bottom:1px solid black" > cm
+         or
+       <input type="number"  value="0" step="1" name="feet" style="width:8vw;border-width:0;border-bottom:1px solid black" > feet &nbsp<input type="number" value="0" step="0.1" name="inches" style="width:8vw;border-bottom:1px solid black">inches
+       <br>
+       <br>
+
+
+            <strong>Does he have any disease(s) or condition(s)? Please specify</strong>
+            <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="fatherdisease" required>
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>13</id>
+        <ques><![CDATA[
+        13)
+        <br>
+         <li>
+            Mother's infomation (if deceased incuded pre-existing information):
+             <br>
+            Body weight:
+            <br>
+            <input type="number" min="0" max="400" value="0" step="0.1" name="kgtoday" style="width:10vw;border-width:0;border-bottom:1px solid black"> kg
+        or <input type="number" min="0" max="1000" value="0" step="1" name="lbstoday" style="width:10%;border-width:0;border-bottom:1px solid black"> labs</td>
+
+        <br>
+        Height:
+        <br>
+        <input type="number" min="0" max="250" value="0" step="0.1" name="cm" style="width:10vw;border-width:0;border-bottom:1px solid black" > cm
+         or
+       <input type="number"  value="0" step="1" name="feet" style="width:8vw;border-width:0;border-bottom:1px solid black" > feet &nbsp<input type="number" value="0" step="0.1" name="inches" style="width:8vw;border-bottom:1px solid black">inches
+       <br>
+       <br>
+
+            <strong>Does she have any disease(s) or condition(s)? Please specify</strong>
+            <input type="text" style="border-width:0;border-bottom:1px solid black" size="20" name="motherdisease" required>
+
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+    <question>
+        <id>14</id>
+        <ques><![CDATA[
+        14)
+        <br>
+        <li>
+            To your knowledge, have any of your relatives volunteered for this study to date?
+            <br>
+            <br>
+            If yes, please indicate the name(s) of this person(s) to a staff memeber and the relationship of each of you:
+            <input type="text" style="border-width:0;border-bottom:1px solid black" size="100" name="relation" required>
+        </li>
+        ]]></ques>
+        <type>0</type>
+        <ans>Confirm</ans>
+    </question>
+
+</list>  
